@@ -15,7 +15,7 @@ namespace Review.API.Models
 
         [Required]
         public string Title { get; set; }
-        public string? Comment { get; set; }
+        public string Comment { get; set; }
 
         [Required]
         public RecommendationValues Recommendation { get; set; }
