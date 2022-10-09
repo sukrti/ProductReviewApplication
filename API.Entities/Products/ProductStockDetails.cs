@@ -1,5 +1,4 @@
-﻿using System;
-namespace APIEntities.StockEntity
+﻿namespace APIEntities.StockEntity
 {
     public class ProductStockDetails
     {
@@ -7,7 +6,7 @@ namespace APIEntities.StockEntity
         public int Stock { get; set; }
         public ProductStockDetails()
         {
-            
+
         }
     }
 }
